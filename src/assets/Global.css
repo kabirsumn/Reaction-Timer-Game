@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+div {
+  margin: 1rem auto;
+}
+
+.btn {
+  background-color: #21eca9;
+  margin: 0.5rem auto;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
