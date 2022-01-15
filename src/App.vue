@@ -1,12 +1,14 @@
 <template>
   <h1>Catch The Ball as soon as you can</h1>
   <button class="btn">Start</button>
+  <circle />
 </template>
 
 <script>
+import Circle from './components/Circle.vue';
 export default {
   name: 'App',
-  components: {},
+  components: { Circle },
 };
 </script>
 
