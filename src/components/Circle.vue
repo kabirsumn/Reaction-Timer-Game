@@ -6,4 +6,11 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.circle {
+  margin: 0.5rem auto;
+  padding: 150px;
+  background-color: #a0f750;
+  border-radius: 50%;
+}
+</style>
