@@ -1,9 +1,23 @@
 <template>
-  <div class="circle">click here</div>
+  <div v-show="showCircle" class="circle">click here</div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ['delay'],
+
+  data() {
+    return {
+      showCircle: false,
+    };
+  },
+
+  mounted() {
+    setTimeout(() => {
+      this.showCircle = true;
+    }, this.delay);
+  },
+};
 </script>
 
 <style>
