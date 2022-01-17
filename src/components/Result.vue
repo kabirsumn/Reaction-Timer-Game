@@ -1,5 +1,5 @@
 <template>
-  <div>well done! you can fatch the ball again</div>
+  <div>well done! fatch the ball and catch again</div>
   <div>you couldn't catch the fatch</div>
 </template>
 

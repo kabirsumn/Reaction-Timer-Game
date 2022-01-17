@@ -1,7 +1,7 @@
 <template>
   <h1>Catch The Ball as soon as you can</h1>
   <button class="btn">Start</button>
-  <circle />
+  <Circle />
 </template>
 
 <script>
